@@ -1,0 +1,112 @@
+*
+{
+	padding:0px;
+	margin:0px;
+}
+
+
+body
+{
+	background-image:url("../images/background1.jpg");
+	background-size: 1400px;
+	background-color:RGB(0, 0, 0);
+	color:RGBA(255, 255, 255, 1);
+	font-size:1.1em;
+	font-family:Trebuchet MS;
+	border:10px solid red;
+	/*
+	padding-left:2em;
+	padding-top:2em;
+	padding-bottom:2em;
+	padding-right:2em;
+	*/
+	padding:1em;
+	margin:10px;
+
+}
+div#container
+{
+	/*background-image:url("../images/jumbo_logo.jpg");*/
+	background-color:red;
+	width:1000px;
+	margin:0px auto;
+	border-radius:20px;
+}
+
+div#banner1
+{
+	background-color: :blue;
+
+}
+
+div#banner
+{
+	background-image:url("../images/jumbo_header_default.jpg");
+	/*background-repeat:repeat;*/
+	background-color:blue;
+	height:225px;
+	border-radius:20px;
+}
+
+div#header
+{
+	background-color:red;
+	text-align:center;
+}
+
+div#footer
+{
+	background-color:red;
+	text-align:center;
+}
+
+div#content
+{
+	min-height:250px;
+	/*border:5px solid blue;*/
+	padding:20px;
+	position:relative;
+}
+
+div#link
+{
+	
+	position:absolute;
+	left:-150px;
+	background-color:light blue;
+	border-radius:5px;
+	padding:0,5em;
+}
+
+div#link ul
+{
+	list-style-type:none;
+
+}
+
+a
+{
+	color:white;
+	text-decoration:underline;
+}
+table.simple
+{
+	border-collapse:collapse;
+	margin:0px auto;
+	width:400px;
+}
+
+table.simple th, td
+{
+	border:5px solid blue;
+	text-align:center;
+	padding:0.3em;
+	border:5px solid blue;
+	background-color:white;
+	color:black;
+}
+
+tabel.simple caption
+{
+	background-color:blue;
+}
